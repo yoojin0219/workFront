@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        p{
+            width: 500px;
+            height: 210px;
+            background-color: lightcyan;
+            border: 1px solid rgb(76, 168, 165);
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        #static{
+            position: static;
+        }
+        #relative-1{
+            position: relative;
+        }
+        #relative-2{
+            position: relative;
+            left: 100px;
+            top: -50px;
+        }
+        #fixed{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            background-color: navy;
+            color: aliceblue;
+            right: 30px;
+            top: 30px;
+            overflow: hidden;
+        }
+
+        #outter{
+            position: relative;
+        }
+        #first{
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+        }
+        #second{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(204, 136, 204);
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        #third{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(108, 143, 108);
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>포지셔닝</h2>
+    CSS를 이용하여 여러 요소를 적절하게 배치하는 것
+    
+    <div id='outter'>
+        <p id='first'></p>
+        <p id='second'></p>
+        <p id='third'></p>
+    </div>
+
+
+
+    <p id='static'>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+        Ipsum elit in labore velit labore minim enim nulla aute. In aliquip sit pariatur fugiat est ut irure officia labore minim tempor exercitation. Amet sint occaecat laborum Lorem pariatur incididunt ipsum do aute. Id excepteur aliqua veniam adipisicing. In labore ut id dolore aute ad duis dolor aliquip id amet voluptate sit ullamco. Sint anim tempor laboris culpa tempor.        
+    </p>
+
+    <p>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+    </p>
+    
+    <p>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+    </p>
+    
+    <p>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+    </p>
+
+    <p id='relative-1'>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+        Ipsum elit in labore velit labore minim enim nulla aute. In aliquip sit pariatur fugiat est ut irure officia labore minim tempor exercitation. Amet sint occaecat laborum Lorem pariatur incididunt ipsum do aute. Id excepteur aliqua veniam adipisicing. In labore ut id dolore aute ad duis dolor aliquip id amet voluptate sit ullamco. Sint anim tempor laboris culpa tempor.        
+    </p>
+        
+    <p id='relative-2'>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+        Ipsum elit in labore velit labore minim enim nulla aute. In aliquip sit pariatur fugiat est ut irure officia labore minim tempor exercitation. Amet sint occaecat laborum Lorem pariatur incididunt ipsum do aute. Id excepteur aliqua veniam adipisicing. In labore ut id dolore aute ad duis dolor aliquip id amet voluptate sit ullamco. Sint anim tempor laboris culpa tempor.        
+    </p>
+        
+    <p id='fixed'>
+        Incididunt quis aliqua sit id dolor dolore. Magna et id ad non. Cillum aute consequat aute elit magna fugiat qui dolor mollit. Ea laborum nostrud ad officia exercitation non laboris pariatur.
+        Ipsum elit in labore velit labore minim enim nulla aute. In aliquip sit pariatur fugiat est ut irure officia labore minim tempor exercitation. Amet sint occaecat laborum Lorem pariatur incididunt ipsum do aute. Id excepteur aliqua veniam adipisicing. In labore ut id dolore aute ad duis dolor aliquip id amet voluptate sit ullamco. Sint anim tempor laboris culpa tempor.        
+    </p>
+        
+
+</body>
+</html>
